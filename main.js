@@ -6,8 +6,8 @@ import 'firebase/firestore';
 const firebaseConfig = {
   // your config
 
-  apiKey: process.env.apiKey,
-  authDomain: process.env.authDomain,
+   apiKey: process.env.apiKey,
+   authDomain: process.env.authDomain,
     projectId: process.env.projectId,
     storageBucket: process.env.storageBucket,
     messagingSenderId: process.env.messagingSenderId,
@@ -17,6 +17,7 @@ const firebaseConfig = {
 
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
+  console.log("config" + firebaseConfig);
 }
 const firestore = firebase.firestore();
 
