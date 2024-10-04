@@ -4,7 +4,15 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  // your configf
+  // your config
+
+  apiKey: process.env.apiKey,
+  authDomain: process.env.authDomain,
+    projectId: process.env.projectId,
+    storageBucket: process.env.storageBucket,
+    messagingSenderId: process.env.messagingSenderId,
+    appId: process.env.appId,
+    measurementId: "G-Y43FFYM6BT"
 };
 
 if (!firebase.apps.length) {
