@@ -6,12 +6,12 @@ import 'firebase/firestore';
 const firebaseConfig = {
   // your config
 
-   apiKey: process.env.NEXT_PUBLIC_apiKey,
-   authDomain: process.env.NEXT_PUBLIC_authDomain,
-    projectId: process.env.NEXT_PUBLIC_projectId,
-    storageBucket: process.env.NEXT_PUBLIC_storageBucket,
-    messagingSenderId: process.env.NEXT_PUBLIC_messagingSenderId,
-    appId: process.env.NEXT_PUBLIC_appId,
+   apiKey: process.env.VITE_apiKey,
+   authDomain: process.env.VITE_authDomain,
+    projectId: process.env.VITE_projectId,
+    storageBucket: process.env.VITE_storageBucket,
+    messagingSenderId: process.env.VITE_messagingSenderId,
+    appId: process.env.VITE_appId,
     measurementId: "G-Y43FFYM6BT"
 };
 
