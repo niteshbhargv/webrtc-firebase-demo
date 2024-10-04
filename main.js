@@ -4,7 +4,7 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  // your config
+  // your configf
 };
 
 if (!firebase.apps.length) {
