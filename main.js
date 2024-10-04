@@ -6,13 +6,13 @@ import 'firebase/firestore';
 const firebaseConfig = {
   // your config
 
-    apiKey: import.meta.env.VITE_apiKey,
-     authDomain: import.meta.env.VITE_authDomain,
-     projectId: import.meta.env.VITE_projectId,
-     storageBucket: import.meta.env.VITE_storageBucket,
-     messagingSenderId: import.meta.env.VITE_messagingSenderId,
-     appId: import.meta.env.VITE_appId,
-    measurementId: "G-Y43FFYM6BT"
+    apiKey: "AIzaSyAybKsW1pm8N7RRRGam6EXtwmvkjh5v2yU",
+      authDomain: "newwebchat-50bce.firebaseapp.com",
+      projectId: "newwebchat-50bce",
+      storageBucket: "newwebchat-50bce.appspot.com",
+      messagingSenderId: "512986597714",
+      appId: "1:512986597714:web:690fa031e026cca24d928b",
+      measurementId: "G-Y43FFYM6BT"
 };
 
 if (!firebase.apps.length) {
