@@ -17,7 +17,6 @@ const firebaseConfig = {
 
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
-  console.log("config" + JSON.stringify(firebaseConfig));
 }
 const firestore = firebase.firestore();
 
